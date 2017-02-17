@@ -15,3 +15,6 @@ docker run --rm -it \
 
 ## Tags
 -   `3.0.1`, `3`, `latest`
+
+## NOTES
+You can take the [`phploc`](/phploc) file and place it in your `$PATH`. Then you simply run `phploc [options]`
