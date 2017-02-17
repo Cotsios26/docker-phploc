@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+docker run \
+    --rm \
+    -it \
+    -v $(pwd):/app \
+    --name phploc$(date +%s) \
+    gruen/phploc ${@}
